@@ -1,0 +1,5 @@
+<!-- <li class="<?php if ($urhere=="homepage") {echo "current-btn"; }?>"><a href="<?php echo $path;?>"> Home</a></li> -->
+
+<!-- <?php echo $path;?> -->
+
+<!-- <?php echo $basesurl;?> -->
