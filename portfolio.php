@@ -1,40 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!--====== Title ======-->
-    <title>Techxtremee | Portfolio</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-
-    <?php
-    $srcurl = "includes/";
-    $basesurl = "assets/";
-    ?>
-
-    <?php
-    $style = $_SERVER['HTTP_HOST']; 
-    $style = $srcurl."style.php"; 
-    include($style); 
-
-    $urhere = "portfoliopage";
-    ?>
-
-</head>
-<body class="hompg">
-
-
-<!-- ***full page start*** -->
-<?php
-$header = $_SERVER['HTTP_HOST']; 
-$header = $srcurl."header.php"; 
-include($header); 
-?>
-
-<!-- =======*****************==============*****************==============*****************=======  -->
-<!-- =======*****************=======TECHXTREMEE MAIN CONTENT AREA START============********========== -->
-<!-- =======*****************==============*****************==============*****************=======  -->
-
-
     <!--====== INFETECH BREADCRUMB  PART ENDS ======-->
 
     <section class="breadcrumb-area">
@@ -49,7 +12,7 @@ include($header);
                                 <li class="breadcrumb-item active" aria-current="page">Contact</li>
                             </ol>
                         </nav> -->
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,7 +24,7 @@ include($header);
                 <div class="col-lg-6">
                     <div class="single-project-item-2  wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
                         <div class="thumb">
-                            <img src="<?php echo $basesurl;?>images/images/proj-6.gif" alt="projects-img">
+                            <img src="<?php echo $basesurl; ?>images/images/proj-6.gif" alt="projects-img" decoding="async" loading="lazy">
                         </div>
                         <div class="project-content">
                             <div class="text">
@@ -76,7 +39,7 @@ include($header);
                 <div class="col-lg-6">
                     <div class="single-project-item-2  wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <div class="thumb">
-                            <img src="<?php echo $basesurl;?>images/images/proj-3.jpg" alt="">
+                            <img src="<?php echo $basesurl; ?>images/images/proj-3.jpg" alt="" decoding="async" loading="lazy">
                         </div>
                         <div class="project-content">
                             <div class="text">
@@ -93,7 +56,7 @@ include($header);
                 <div class="col-lg-6">
                     <div class="single-project-item-2  wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
                         <div class="thumb">
-                            <img src="<?php echo $basesurl;?>images/images/proj-4.gif" alt="projects-img">
+                            <img src="<?php echo $basesurl; ?>images/images/proj-4.gif" alt="projects-img" decoding="async" loading="lazy">
                         </div>
                         <div class="project-content">
                             <div class="text">
@@ -108,7 +71,7 @@ include($header);
                 <div class="col-lg-6">
                     <div class="single-project-item-2  wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <div class="thumb">
-                            <img src="<?php echo $basesurl;?>images/images/proj-2.gif" alt="">
+                            <img src="<?php echo $basesurl; ?>images/images/proj-2.gif" alt="" decoding="async" loading="lazy">
                         </div>
                         <div class="project-content">
                             <div class="text">
@@ -125,7 +88,7 @@ include($header);
                 <div class="col-lg-6">
                     <div class="single-project-item-2  wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
                         <div class="thumb">
-                            <img src="<?php echo $basesurl;?>images/images/proj-5.gif" alt="projects-img">
+                            <img src="<?php echo $basesurl; ?>images/images/proj-5.gif" alt="projects-img" decoding="async" loading="lazy">
                         </div>
                         <div class="project-content">
                             <div class="text">
@@ -140,7 +103,7 @@ include($header);
                 <div class="col-lg-6">
                     <div class="single-project-item-2  wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <div class="thumb">
-                            <img src="<?php echo $basesurl;?>images/images/proj-1.gif" alt="">
+                            <img src="<?php echo $basesurl; ?>images/images/proj-1.gif" alt="" decoding="async" loading="lazy">
                         </div>
                         <div class="project-content">
                             <div class="text">
@@ -155,19 +118,3 @@ include($header);
             </div>
         </div>
     </section>
-
-
-<!-- =======*****************==============*****************==============*****************=======  -->
-<!-- =======*****************=======TECHXTREMEE MAIN CONTENT AREA END============********========== -->
-<!-- =======*****************==============*****************==============*****************=======  -->
-
-<?php
-$footer = $_SERVER['HTTP_HOST']; 
-$footer = $srcurl."footer.php"; 
-include($footer); 
-?>
-<!-- ***full page end*** -->
-
-
-</body>
-</html>

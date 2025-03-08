@@ -9,6 +9,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #6c6a72; 
+  overflow-x: hidden !important;
 background-color: #ffffff00!important;}
 
 * {

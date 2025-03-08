@@ -21,7 +21,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="testimonial-thumb-4">
-                                        <img src="<?php echo $basesurl;?>images/t1-img.webp" alt="testimonial-image">
+                                        <img src="<?php echo $basesurl;?>images/t1-img.webp" alt="testimonial-image" decoding="async" loading="lazy">
                                         <!--<div class="quote-icon">-->
                                         <!--    <span>“</span>-->
                                         <!--</div>-->
@@ -45,7 +45,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="testimonial-thumb-4">
-                                        <img src="<?php echo $basesurl;?>images/t2-img.webp" alt="testimonial-image">
+                                        <img src="<?php echo $basesurl;?>images/t2-img.webp" alt="testimonial-image" decoding="async" loading="lazy">
                                         
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="testimonial-thumb-4">
-                                        <img src="<?php echo $basesurl;?>images/t3-img.webp" alt="testimonial-image">
+                                        <img src="<?php echo $basesurl;?>images/t3-img.webp" alt="testimonial-image" decoding="async" loading="lazy">
                                         
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="testimonial-thumb-4">
-                                        <img src="<?php echo $basesurl;?>images/t4-img.webp" alt="testimonial-image">
+                                        <img src="<?php echo $basesurl;?>images/t4-img.webp" alt="testimonial-image" decoding="async" loading="lazy">
                                         
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@
                                         <div class="section-title">
                                             <span>Client Testimonials</span>
                                             <h3 class="title">What They’re Talking?</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>I had an amazing experience with this service! From start to finish, everything was handled professionally and efficiently. The team was responsive, and they truly understood my needs. I highly recommend them to anyone looking for quality and reliability!</p>
                                         </div>
                                         <!--<div class="clients-info">-->
                                         <!--    <h4 class="title">Sarah Arthur <span>New York</span></h4>-->
