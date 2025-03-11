@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="row g-0">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="single-service-3-item clients-3-item">
                         <div class="bg"></div>
                         <h4 class="title">Automation</h4>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="single-service-3-item clients-3-item">
                         <div class="bg"></div>
                         <h4 class="title">Ideas Generator</h4>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="single-service-3-item clients-3-item">
                         <div class="bg"></div>
                         <h4 class="title">Marketing</h4>
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="single-service-3-item clients-3-item">
                         <div class="bg"></div>
                         <h4 class="title">Sales</h4>
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="single-service-3-item clients-3-item">
                         <div class="bg"></div>
                         <h4 class="title">Video Editor</h4>
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="single-service-3-item clients-3-item">
                         <div class="bg"></div>
                         <h4 class="title">Web Developer</h4>

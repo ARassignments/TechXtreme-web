@@ -62,31 +62,36 @@
             </div>
             <div class="col-lg-8">
                 <div class="contact-form-page-box mt-30">
-                    <form action="#">
+                    <form action="mailto:info@techextremee.com" method="post" enctype="text/plain">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="input-box">
-                                    <input type="text" placeholder="Your Name">
+                                    <input type="text" placeholder="Your Name" name="name" minlength="3"
+                                    maxlength="20" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="input-box">
-                                    <input type="email" placeholder="Email Address">
+                                    <input type="email" placeholder="Email Address" name="email" maxlength="40" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="input-box">
-                                    <input type="text" placeholder="Phone Number">
+                                    <input type="text" placeholder="Phone Number" name="contact" minlength="11"
+                                    maxlength="15" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="input-box">
-                                    <input type="text" placeholder="Service">
+                                    <input type="text" placeholder="Service" name="service" minlength="5"
+                                    maxlength="20" required>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="input-box">
-                                    <textarea name="#" id="#" cols="30" rows="10" placeholder="Write a Message"></textarea>
+                                    <textarea name="#" id="#" cols="30" rows="10" placeholder="Write a Message" name="message" minlength="20"
+                                        maxlength="1000"
+                                        required></textarea>
                                     <button type="submit" class="main-btn">Send a message</button>
                                 </div>
                             </div>
@@ -124,3 +129,4 @@
 </div>
 
 <!--====== INFETECH CTA PART ENDS ======-->
+
